@@ -1,17 +1,35 @@
 {
-    "format_version": 2,
-    "header": {
-      "name": "C418 Music Only Pack",
-      "description": "Replaces Minecraft music with only C418 songs.",
-      "uuid": "REPLACE-WITH-UNIQUE-UUID-1",
-      "version": [1, 0, 0]
-    },
-    "modules": [
-      {
-        "type": "resources",
-        "uuid": "REPLACE-WITH-UNIQUE-UUID-2",
-        "version": [1, 0, 0]
-      }
+  "format_version": 2,
+  "header": {
+    "name": "Poly C418 Fixes",
+    "description": "A mod to replace the music files with C418s masterpieces",
+    "uuid": "6c3fe9c5-2dc1-94c5-0bb6-e199ac29cacd",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      13,
+      0
     ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "15d08628-d7ac-710a-f073-66d7eb639007",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "DreadBreadcrumb"
+    ],
+    "url": "https://twitch.tv/dreadbreadcrumb"
   }
-  
+}

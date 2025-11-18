@@ -77,8 +77,8 @@ if (Test-Path $mcpackPath) {
 }
 
 Write-Host "`nPacking resource pack to $mcpackName..."
-Compress-Archive -Path "$packRoot\*" -DestinationPath $mcpackPath
+Compress-Archive -Path "mod\*" -DestinationPath $mcpackPath
 
 Write-Host "✅ Done! Pack created: $mcpackName"
 Move-Item $mcpackName 
-Rename-Item -Path $mcpackName  -NewName "MyMusicPack.mcpack"
+Rename-Item -Path $mcpackName  -NewName "MyMusicPack1.mcpack"
